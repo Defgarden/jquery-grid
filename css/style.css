@@ -7,22 +7,20 @@
 }
 
 .grid-wrap {
-	border: solid red;
 	width: 960px;
+	height: 960px;
 	margin: 20px auto;
+	border: solid red 1px;
 }
 
 ul {
-	margin: 0 1px;
+	margin: 0;
 	padding: 0;
+	float: left;
 }
 
 li {
-	border: solid black 1px;
-	height: 30px;
-	width: 30px;
+	outline: solid black 1px;
 	display: inline-block;
 	list-style: none;
-	padding: 0;
-	margin: 0 1px;
 }
