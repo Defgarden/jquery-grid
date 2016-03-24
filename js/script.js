@@ -46,14 +46,17 @@ function createGrid(count){
 	}
 
 	$('li').each(function(){
+		$(this).append( $('<div></div>').addClass("border-div"))
 		$(this).append( $('<div></div>').addClass("square-div"));
 	});
 
 	$('li').css("height", size);
 	$('li').css("width", size);
 	$('ul').css("height", size);
-	$('.square-div').css("height", size);
-	$('.square-div').css("width", size);
+	$('.square-div').css("height", size - 10);
+	$('.square-div').css("width", size - 10);
+	$('.border-div').css("height", size - 10);
+	$('.border-div').css("width", size - 10);
 
 	chooseStyle(mode);
 }

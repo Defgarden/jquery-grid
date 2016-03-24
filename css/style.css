@@ -10,18 +10,38 @@
 	width: 960px;
 	height: 960px;
 	margin: 20px auto;
-	border: solid red 1px;
+
 }
 
 ul {
 	margin: 0;
 	padding: 0;
-	float: left;
+
 }
 
 li {
-	outline: solid black 1px;
-	display: inline-block;
+
 	list-style: none;
+	display: inline-block;
+	text-align: justify-all;
+	position: relative;
+
+
+}
+
+.square-div{
+
+	position: absolute;
+	top: 5px;
+	left: 5px;
+
+}
+
+.border-div{
+	position: absolute;
+	top: 5px;
+	left: 5px;
+	outline: solid black 2px;
+	background-color: transparent;
 }
 
